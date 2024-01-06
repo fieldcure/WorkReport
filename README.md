@@ -32,7 +32,7 @@
 - 표면을 따라가며 distance 계산
 1. U, V 벡터가 존재할 때, Transducer Array의 U or V벡터 방향으로 진행
 3. surface 표면에 projection
-4. Normal 벡터 계산
+4. normal 벡터 계산
 5. bitangent 벡터 계산
 6. 이전의 포인트와 1.을 통해 진행한 포인트로 다음 진행 방향 계산(tangent 벡터 계산)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/eea8cd63-592b-47cb-8769-74196925d327" width="400">
