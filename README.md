@@ -4,6 +4,7 @@
 
 (중심부의 작은 sphere와 큰 sphere의 각 지점에서의 거리를 scalar field로 표현한 데이터)
 (계산 시간이 꽤 길기 때문에, 최대한 적게 사용하는게 좋을 듯, 직접 데이터를 확인하지 않았지만, 눈에 보이는 결과는 interpolation된 값으로 예상되므로 실제 data array에는 distance 값이 없을 가능성도 있음...)
+
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/d05975ed-2f49-4287-88a2-478bbb1671a1" width="400">
 
 ### ~2024-01-04 (휴일이여서 작업할 시간이 있었음..)
