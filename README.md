@@ -13,11 +13,16 @@
 ### 2024-01-09~2024-01-14
 - 하나의 transducer array에서 전극이 붙을 위치 계산(거리 계산)
 - 곡률의 절대값이 특정 값을 넘으면 경고 메세지를 주는 것이 맞을까... 를 시간이 있으면 확인
-### 2024-01-06~2024-01-08
-- 미정
 <br>
 
 ## 작업 내용
+
+### 2024-01-06~2024-01-08
+- 작성중
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b3285190-c2c9-43f7-b2f7-06f0b14884ce)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/93a8fb2f-1a43-4d8d-a266-d378fd7b309e)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cd18c4c3-2777-4dd1-b969-939e00f3a733)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/f4522bc1-4df6-4df5-bb3f-396021071fe6)
 
 ### 2024-01-04~2024-01-05
 - 하나의 Transducer Array에서 전극을 붙이기 위해서 정확한 거리를 측정할 필요가 있다고 판단
