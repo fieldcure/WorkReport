@@ -17,14 +17,14 @@
 
 ## 작업 내용
 
-### 2024-01-06~2024-01-08
+### 2024-01-06
 - 작성중
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b3285190-c2c9-43f7-b2f7-06f0b14884ce)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/93a8fb2f-1a43-4d8d-a266-d378fd7b309e)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cd18c4c3-2777-4dd1-b969-939e00f3a733)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/f4522bc1-4df6-4df5-bb3f-396021071fe6)
 
-### 2024-01-04~2024-01-05
+### 2024-01-05
 - 하나의 Transducer Array에서 전극을 붙이기 위해서 정확한 거리를 측정할 필요가 있다고 판단
 - vtkDistancePolyDataFilter가 존재함을 확인하여 테스트하는 중, 동일한 거리가 원형으로 표현되기 때문에, 직사각형 내부의 전극이 붙을 지점을 찾기 위해서는 추가 작업이 필요할 것으로 판단
 
