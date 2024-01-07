@@ -24,7 +24,7 @@
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cd18c4c3-2777-4dd1-b969-939e00f3a733)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/8dffd39d-7691-456a-9ff8-1ea5aebe98d3)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cfceb88f-d208-4237-8d7c-e7a21ed80655)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/01ea79bf-aa88-4fb8-8dfc-26098116a2a3)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b8defd8f-69b9-40e7-9c95-f08dc3cb4688)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/f4522bc1-4df6-4df5-bb3f-396021071fe6)
 
 ### 2024-01-05
