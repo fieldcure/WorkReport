@@ -46,7 +46,7 @@
 (패치 중심을 기준으로 upper-right/lower-left/lower-right/upper-left 순)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/a0dd8168-5b04-4f7b-9153-e981ff093606" width="400">
 
-- 반시계 방향으로 삼각형 패치 생성
+- 반시계 방향으로 삼각형 패치 생성(1차 시도)
 1. 중심부
 2. upper-right/lower-left/lower-right/upper-left 순으로 삼각형화(십자 모형의 base point와의 연결(x 기호) + 패치 삼형화(ㅁ기호)) <br>
 // |xㅁㅁㅁㅁ<br>
