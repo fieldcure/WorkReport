@@ -22,6 +22,9 @@
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b3285190-c2c9-43f7-b2f7-06f0b14884ce)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/93a8fb2f-1a43-4d8d-a266-d378fd7b309e)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cd18c4c3-2777-4dd1-b969-939e00f3a733)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/8dffd39d-7691-456a-9ff8-1ea5aebe98d3)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cfceb88f-d208-4237-8d7c-e7a21ed80655)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/01ea79bf-aa88-4fb8-8dfc-26098116a2a3)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/f4522bc1-4df6-4df5-bb3f-396021071fe6)
 
 ### 2024-01-05
