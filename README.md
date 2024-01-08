@@ -4,20 +4,21 @@
 ### 2024-02-12~2024-02-18
 ### 2024-02-05~2024-02-11
 ### 2024-01-29~2024-02-04
-- 추후 일정은 이하 스케줄의 완수 유무에 따라(어디까지나 목표이므로) 변동될 가능성이 있음
 ### 2024-01-22~2024-01-28
-- OncoField에 적용 시작(코드 적용, 회전 함수 등 확인?)
+- 추후 일정은 이하 스케줄의 완수 유무에 따라(어디까지나 목표이므로) 변동될 가능성이 있음
 ### 2024-01-15~2024-01-21
+- 곡률 체크 ?
+- 코드 정리
+- OncoField에 적용 시작(코드 적용, 회전 함수 등 확인?)
+### 2024-01-09~2024-01-14
 - transducer array의 개수(row x, column y)에 대응하는 각 전극의 위치 확인 및 전극 생성
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성
-### 2024-01-09~2024-01-14
-- 하나의 transducer array에서 전극이 붙을 위치 계산(거리 계산)
-- 곡률의 절대값이 특정 값을 넘으면 경고 메세지를 주는 것이 맞을까... 를 시간이 있으면 확인
+- 곡률 체크 ?
 <br>
 
 ## 작업 내용
 
-### 2024-01-06
+### 2024-01-06 ~ 2024-01-08
 - 작성중
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b3285190-c2c9-43f7-b2f7-06f0b14884ce)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/93a8fb2f-1a43-4d8d-a266-d378fd7b309e)
@@ -27,6 +28,9 @@
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b8defd8f-69b9-40e7-9c95-f08dc3cb4688)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/a3919e44-c524-425e-81d0-f5bdba730125)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/51f9ffff-360b-4b1a-987a-61a898504610)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/abe3def4-5c80-46cd-b012-cbeb1332456c)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/e9b41f41-d7db-4ab8-a490-db9506ab4660)
+
 
 ### ~2024-01-05
 - 표면을 따라가며 distance 계산
