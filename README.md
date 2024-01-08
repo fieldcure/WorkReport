@@ -25,7 +25,8 @@
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/8dffd39d-7691-456a-9ff8-1ea5aebe98d3)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cfceb88f-d208-4237-8d7c-e7a21ed80655)
 - ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b8defd8f-69b9-40e7-9c95-f08dc3cb4688)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/f4522bc1-4df6-4df5-bb3f-396021071fe6)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/a3919e44-c524-425e-81d0-f5bdba730125)
+- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/51f9ffff-360b-4b1a-987a-61a898504610)
 
 ### 2024-01-05
 - 하나의 Transducer Array에서 전극을 붙이기 위해서 정확한 거리를 측정할 필요가 있다고 판단
