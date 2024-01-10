@@ -11,7 +11,6 @@
 - 코드 정리
 - OncoField에 적용 시작(코드 적용, 회전 함수 등 확인?)
 ### 2024-01-09~2024-01-14
-- transducer array의 개수(row x, column y)에 대응하는 각 전극의 위치 확인 및 전극 생성
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성
 - 곡률 체크 ?
 <br>
@@ -19,17 +18,36 @@
 ## 작업 내용
 
 ### 2024-01-06 ~ 2024-01-08
-- 작성중
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b3285190-c2c9-43f7-b2f7-06f0b14884ce)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/93a8fb2f-1a43-4d8d-a266-d378fd7b309e)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cd18c4c3-2777-4dd1-b969-939e00f3a733)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/8dffd39d-7691-456a-9ff8-1ea5aebe98d3)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/cfceb88f-d208-4237-8d7c-e7a21ed80655)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/b8defd8f-69b9-40e7-9c95-f08dc3cb4688)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/a3919e44-c524-425e-81d0-f5bdba730125)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/51f9ffff-360b-4b1a-987a-61a898504610)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/abe3def4-5c80-46cd-b012-cbeb1332456c)
-- ![image](https://github.com/fieldcure/WorkReport/assets/40055222/e9b41f41-d7db-4ab8-a490-db9506ab4660)
+- 전극을 부착할 표면이 매끄럽지 않은 경우를 대비하여, 전극 중심점에서 평면을 생성하여 일정 거리 내부에 존재하는 점들이 적절한 방향으로 projection되는지 확인.
+  projection 방향에 문제가 있으면 중심점을 surface로 부터 멀어지도록 이동. (전극의 두께도 고려하여 이동시킴)
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/93a8fb2f-1a43-4d8d-a266-d378fd7b309e" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/cd18c4c3-2777-4dd1-b969-939e00f3a733" width="400"></td>
+</table>
+
+- 실린더 전극 작성, 중심점을 기준으로 회전을 통해 점들을 생성하고 메쉬를 생성
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/8dffd39d-7691-456a-9ff8-1ea5aebe98d3" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/b8defd8f-69b9-40e7-9c95-f08dc3cb4688" width="400"></td>
+</table>
+
+- 사각형 전극 작성, 각 꼭지점을 회전을 통해 점들을 생성하고 메쉬를 생성, cos, sin을 이용해 점을 생성하는 방법은 오차가 존재함(라디안 계산이므로 오차가 생각보다 큼), 사각형의 대각선 길이를 이용해 각 꼭지점을 생성하고 그 사이의 점을 메꾸는 방향이 적절할 듯
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/a3919e44-c524-425e-81d0-f5bdba730125" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/51f9ffff-360b-4b1a-987a-61a898504610" width="400"></td>
+</table>
+
+- hydrogel patch가 onePatch(?)가 아닌 경우도 대응, 하이드로겔, 세라믹, 메탈 순으로 전극 생성 가능, 층이 올라 갈 수록 반지름이 작아지거나 같은 경우는 메쉬에 오류 없이 지원.(역순의 경우에는 뷰어에서는 문제가 없지만 실제 계산에서는 intersection 있을 수 있음)
+<table>
+          <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/abe3def4-5c80-46cd-b012-cbeb1332456c" width="400"></td>
+          <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/e9b41f41-d7db-4ab8-a490-db9506ab4660" width="400"></td>
+</table>
+
+- hydrogel patch를 만들 때 계산한 포인트를 이용하여, 패치 내부의 전극 중심점을 계산
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/b3285190-c2c9-43f7-b2f7-06f0b14884ce" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/cfceb88f-d208-4237-8d7c-e7a21ed80655" width="400"></td>
+</table>
 
 
 ### ~2024-01-05
