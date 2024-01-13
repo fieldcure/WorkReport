@@ -14,7 +14,9 @@
 ## 작업 내용
 
 ### 2024-01-09~2024-01-14
-- transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료
+- transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료(정확한 노말 계산은 온코필드에서 적용 예정)
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/d3a832db-19a8-4161-844b-82e95a6ee2d1" width="300">
+
 - 코드 정리중
 
 ### 2024-01-06 ~ 2024-01-08
