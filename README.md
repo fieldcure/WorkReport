@@ -4,13 +4,11 @@
 ### 2024-02-12~2024-02-18
 ### 2024-02-05~2024-02-11
 - c#코드 c++(Oncofield)로 적용 완료하는 것을 목표로 진행
-- 테스트 시작 기간?
+- 속도 계선, 테스트 시작 기간?
 ### 2024-01-29~2024-02-04
 ### 2024-01-22~2024-01-28
 - OncoField에 적용
 - 곡률 체크 ?(일단 보류)
-### 2024-01-15~2024-01-21
-- OncoField에 적용 시작(코드 적용, 회전 함수 등 확인?)
 <br>
 
 ## 작업 내용
@@ -20,11 +18,13 @@
 - OncoField 적용 시작 -> [https://github.com/hwkim0325/fieldlab-oncofield](https://github.com/hwkim0325/fieldlab-oncofield/tree/OncoField1.2(KFDA))
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae85ceb3-4242-4b5a-b480-74a0fd5c4547" width="300">
 
+- 전극용 사이즈가 커서 조절해서 헤드에서 작업중
+- thickness가 0인 것도 있음 -> 확인(수정) 부탁 예정
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/e4c7a565-b080-4494-bf8f-ea64b2b12215" width="300">
+
 ### 2024-01-09~2024-01-14
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료(정확한 노말 계산은 온코필드에서 적용 예정)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/d3a832db-19a8-4161-844b-82e95a6ee2d1" width="300">
-
-- 코드 정리중
 
 ### 2024-01-06 ~ 2024-01-08
 - 전극을 부착할 표면이 매끄럽지 않은 경우를 대비하여, 전극 중심점에서 평면을 생성하여 일정 거리 내부에 존재하는 점들이 적절한 방향으로 projection되는지 확인.
