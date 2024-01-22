@@ -20,9 +20,11 @@
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae85ceb3-4242-4b5a-b480-74a0fd5c4547" width="300">
 
 - 전극 사이즈가 커서 임의로 조절해서 헤드에서 작업중
-- thickness가 0인 것도 있음 -> 확인(수정) 부탁 예정
 - 이외의 질문 사항 월요일 오전에 전달 예정
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/e4c7a565-b080-4494-bf8f-ea64b2b12215" width="300">
+
+- 사각형 전극(사이즈는 임의로 조절해서 작업중)
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/b12b164f-4f8a-425d-8a1a-c5815ceee876" width="300">
 
 ### 2024-01-09~2024-01-14
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료(정확한 노말 계산은 온코필드에서 적용 예정)
