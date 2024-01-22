@@ -17,18 +17,18 @@
 ### 2024-01-15~2024-01-21
 - 코드 정리(함수 인자가 너무 많아서 클래스 작성)
 - OncoField 적용 시작 -> [https://github.com/hwkim0325/fieldlab-oncofield](https://github.com/hwkim0325/fieldlab-oncofield/tree/OncoField1.2(KFDA))
-<img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae85ceb3-4242-4b5a-b480-74a0fd5c4547" width="300">
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae85ceb3-4242-4b5a-b480-74a0fd5c4547" width="400">
 
 - 전극 사이즈가 커서 임의로 조절해서 헤드에서 작업중
 - 이외의 질문 사항 월요일 오전에 전달 예정
-<img src="https://github.com/fieldcure/WorkReport/assets/40055222/e4c7a565-b080-4494-bf8f-ea64b2b12215" width="300">
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/e4c7a565-b080-4494-bf8f-ea64b2b12215" width="700">
 
 - 사각형 전극(사이즈는 임의로 조절해서 작업중)
-<img src="https://github.com/fieldcure/WorkReport/assets/40055222/b12b164f-4f8a-425d-8a1a-c5815ceee876" width="300">
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/b12b164f-4f8a-425d-8a1a-c5815ceee876" width="700">
 
 ### 2024-01-09~2024-01-14
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료(정확한 노말 계산은 온코필드에서 적용 예정)
-<img src="https://github.com/fieldcure/WorkReport/assets/40055222/d3a832db-19a8-4161-844b-82e95a6ee2d1" width="300">
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/d3a832db-19a8-4161-844b-82e95a6ee2d1" width="400">
 
 ### 2024-01-06 ~ 2024-01-08
 - 전극을 부착할 표면이 매끄럽지 않은 경우를 대비하여, 전극 중심점에서 평면을 생성하여 일정 거리 내부에 존재하는 점들이 적절한 방향으로 projection되는지 확인.
