@@ -15,11 +15,11 @@
 ## 작업 내용
 
 ### 2024-01-15~2024-01-21
-- 코드 정리(함수화) -> 함수 인자가 너무 많아서 클래스 작성중
+- 코드 정리(함수 인자가 너무 많아서 클래스 작성)
 - OncoField 적용 시작 -> [https://github.com/hwkim0325/fieldlab-oncofield](https://github.com/hwkim0325/fieldlab-oncofield/tree/OncoField1.2(KFDA))
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae85ceb3-4242-4b5a-b480-74a0fd5c4547" width="300">
 
-- 전극용 사이즈가 커서 조절해서 헤드에서 작업중
+- 전극 사이즈가 커서 임의로 조절해서 헤드에서 작업중
 - thickness가 0인 것도 있음 -> 확인(수정) 부탁 예정
 - 이외의 질문 사항 월요일 오전에 전달 예정
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/e4c7a565-b080-4494-bf8f-ea64b2b12215" width="300">
