@@ -26,6 +26,11 @@
 - 사각형 전극(사이즈는 임의로 조절해서 작업중)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/b12b164f-4f8a-425d-8a1a-c5815ceee876" width="700">
 
+- 하이드로겔의 width, height가 ceramic or copper보다 살짝 큰 값이 들어가 있어서, 값 수정이 필요할 것으로 보임. -> 전달 예정
+- 좀 더 심플한 방법도 생각 중
+- <img src="https://github.com/fieldcure/WorkReport/assets/40055222/b04600cf-92a4-4c98-a08e-b44d42dc05ff" width="700">
+
+
 ### 2024-01-09~2024-01-14
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료(정확한 노말 계산은 온코필드에서 적용 예정)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/d3a832db-19a8-4161-844b-82e95a6ee2d1" width="400">
