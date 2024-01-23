@@ -27,7 +27,7 @@
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/b12b164f-4f8a-425d-8a1a-c5815ceee876" width="700">
 
 - 하이드로겔의 width, height가 ceramic or copper보다 살짝 큰 값이 들어가 있어서, 값 수정이 필요할 것으로 보임. -> 전달 예정
-- 좀 더 심플한 방법도 생각 중
+- 좀 더 심플한 방법도 생각 중(tolerance의 조정으로 좀 더 정확한 patch를 만들 수 있지만 시간이 오래걸림)
 - <img src="https://github.com/fieldcure/WorkReport/assets/40055222/b04600cf-92a4-4c98-a08e-b44d42dc05ff" width="700">
 
 
