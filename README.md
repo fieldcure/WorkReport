@@ -14,6 +14,10 @@
 
 ## 작업 내용
 
+### 2024-01-22~2024-01-28
+- 클릭시 보이는 전극, 회전, 이동 함수 연동중
+- one patch도 성능 개선을 위해 코드 수정중
+
 ### 2024-01-15~2024-01-21
 - 코드 정리(함수 인자가 너무 많아서 클래스 작성)
 - OncoField 적용 시작 -> [https://github.com/hwkim0325/fieldlab-oncofield](https://github.com/hwkim0325/fieldlab-oncofield/tree/OncoField1.2(KFDA))
