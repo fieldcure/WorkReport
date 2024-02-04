@@ -3,26 +3,62 @@
 ### 2024-02-19~2024-02-25
 ### 2024-02-12~2024-02-18
 ### 2024-02-05~2024-02-11
-- c#코드 c++(Oncofield)로 적용 완료하는 것을 목표로 진행
-- 속도 계선, 테스트 시작 기간?
-### 2024-01-29~2024-02-04
-### 2024-01-22~2024-01-28
-- OncoField에 적용(One Patch, 직사각형 전극 부착까지 완료)
-- 기존 OncoField 기능과 연결 작업 시작(회전, 이동 등)
-- 곡률 체크 ?(일단 보류)
-<br>
+- [ ] 종료시 에러라는 부분 수정
+- [ ] 전극 intersection 체크 부분 수정
+- [ ] 포인터 해제 처리
+- [ ] 필요 없는 함수 제거
+- [ ] 코드 정리 & 주석 추가
+- [ ] one patch(코드 좀 더 정확하게 개선)
 
 ## 작업 내용
 
-### 2024-01-22~2024-01-28
+### 2024-01-22~2024-02-04
 - 클릭시 보이는 전극(템플릿), 회전&이동 함수 연동중
 - one patch도 성능 개선을 위해 코드 수정중
-- [ ] 사각형 전극(템플릿)
-- [ ] 원형 전극(템플릿)
-- [ ] one patch(템플릿)
-- [ ] 사각형 전극, 원형 전극, one patch(이동&회전)
-- [ ] one patch(코드 개선)
-- [ ] 전체 전극 테스트 시작
+- [x] 사각형 전극(템플릿)
+- [x] 원형 전극(템플릿)
+- [x] one patch(템플릿)
+- [x] 사각형 전극, 원형 전극, one patch(이동&회전)
+- [x] one patch(코드 개선)
+
+- 임의의 값을 집어 넣어 테스트 함
+- hydrogel one-patch(?)를 사용한 경우
+- 사각형, one-patch의 경우 경계선을 구하여 들로네2D 적용(기존의 코드가 속도가 오래 걸려서 심플하게 패치를 만들 수 있도록 수정.)
+
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/0e919fff-8e3a-4551-86c7-3846a632c9ad" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/18cac37c-732d-4569-9ca8-836b10a2ea0a" width="400"></td>
+</table>
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/d49f2c2c-de5e-4b2c-9319-7fce38a2f5fc" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/9a179799-2ea3-47fc-ad2b-c68f999b7c0a" width="400"></td>
+</table>
+
+- 헤드 모델 없앤 후의 모습
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/f8290264-c99b-4a80-82e3-44ccce595036" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/faf90da0-3104-4d3a-95cc-4eef6162f772" width="400"></td>
+</table>
+
+- translation
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/8a55bde9-8fbe-48a4-b63e-3a511cd43ada" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/84bdb0a3-c12b-49b0-b0fe-a3c58484bfb7" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/3392fd07-c9fa-4fd9-bed3-85fdb5b418f6" width="400"></td>
+</table>
+
+- rotation
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/5ecd526c-1b2c-4415-b645-8da2ae21723c" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/f14159f6-5eeb-4370-86a4-947eac5c25ee" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/083dc583-7782-470f-ab74-dab6c635abf5" width="400"></td>
+</table>
+
+- 직각으로 파고드는 메쉬(ㄱ 모형으로 파고드는 부분)에는 전극이 살짝 묻히는 현상이 있으므로 내부의 점들도 추가해서 들로네 삼각형화 적용(직각인게 말이 안되서 굳이 해당 경우를 예외 처리 해야하나 싶은 생각은 있지만...)
+
+
+
+
 
 ### 2024-01-15~2024-01-21
 - 코드 정리(함수 인자가 너무 많아서 클래스 작성)
