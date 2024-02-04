@@ -21,10 +21,9 @@
 - [x] 사각형 전극, 원형 전극, one patch(이동&회전)
 - [x] one patch(코드 개선)
 
-- 임의의 값을 집어 넣어 테스트 함
-- hydrogel one-patch(?)를 사용한 경우
-- 사각형, one-patch의 경우 경계선을 구하여 들로네2D 적용(기존의 코드가 속도가 오래 걸려서 심플하게 패치를 만들 수 있도록 수정.)
 
+- hydrogel one-patch(?)를 사용한 경우(임의의 값을 집어 넣어 테스트 함)
+ ->사각형, one-patch의 경우 경계선을 구하여 들로네2D 적용(기존의 코드가 속도가 오래 걸려서 심플하게 패치를 만들 수 있도록 수정.)
 <table>
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/0e919fff-8e3a-4551-86c7-3846a632c9ad" width="400"></td>
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/18cac37c-732d-4569-9ca8-836b10a2ea0a" width="400"></td>
@@ -54,7 +53,7 @@
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/083dc583-7782-470f-ab74-dab6c635abf5" width="400"></td>
 </table>
 
-- 직각으로 파고드는 메쉬(ㄱ 모형으로 파고드는 부분)에는 전극이 살짝 묻히는 현상이 있으므로 내부의 점들도 추가해서 들로네 삼각형화 적용(직각인게 말이 안되서 굳이 해당 경우를 예외 처리 해야하나 싶은 생각은 있지만...)
+- 직각으로 파고드는 메쉬(ㄱ 모형으로 파고드는 부분)에는 전극이 살짝 묻히는 현상이 있으므로 시간이 있으면 개선 예정(직각인게 말이 안되서 굳이 해당 경우를 예외 처리 해야하나 싶은 생각은 있지만...)
 
 
 
