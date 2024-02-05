@@ -23,7 +23,7 @@
 
 
 - hydrogel one-patch(?)를 사용한 경우(임의의 값을 집어 넣어 테스트 함)
- ->사각형, one-patch의 경우 경계선을 구하여 들로네2D 적용(기존의 코드가 속도가 오래 걸려서 심플하게 패치를 만들 수 있도록 수정.)
+ ->사각형, one-patch의 경우 경계선을 구하여 들로네2D 적용(기존의 코드가 시간이 오래 걸려서 심플하게 패치를 만들 수 있도록 수정.)
 <table>
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/0e919fff-8e3a-4551-86c7-3846a632c9ad" width="400"></td>
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/18cac37c-732d-4569-9ca8-836b10a2ea0a" width="400"></td>
