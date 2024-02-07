@@ -16,7 +16,7 @@
 - [ ] 전극 intersection 체크 부분 수정
 - [ ] 포인터 해제 처리
 - [ ] 코드 정리 & 주석 추가
-- [ ] one patch(코드 좀 더 정확하게 개선)
+- [x] one patch(코드 좀 더 정확하게 개선)
 
 ### 2024-01-22~2024-02-04
 - 클릭시 보이는 전극(템플릿), 회전&이동 함수 연동중
@@ -27,6 +27,8 @@
 - [x] 사각형 전극, 원형 전극, one patch(이동&회전)
 - [x] one patch(코드 개선)
 
+- vtk의 들로네 삼각형이 기능이 별로여서 그냥 따로 만듦(포인트 subdivition -> 인체에 progection -> 삼각형화)
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/d96b0eb0-d4ee-4326-b168-c047e86050d3" width="400">
 
 - hydrogel one-patch(?)를 사용한 경우(임의의 값을 집어 넣어 테스트 함)
  ->사각형, one-patch의 경우 경계선을 구하여 들로네2D 적용(기존의 코드가 시간이 오래 걸려서 심플하게 패치를 만들 수 있도록 수정.)
