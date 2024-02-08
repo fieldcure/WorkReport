@@ -20,8 +20,8 @@
 
 - vtk의 들로네 삼각형이 기능이 별로여서 그냥 따로 만듦(포인트 subdivition -> 인체에 progection -> 삼각형화)
 - 현재는 0.05mm 간격으로 포인트를 생성하고 있음-> 좀 더 resolution을 높이고 싶으면 간격 설정을 줄이면 됨
-<img src="https://github.com/fieldcure/WorkReport/assets/40055222/d96b0eb0-d4ee-4326-b168-c047e86050d3" width="400"><br>
-<img src="https://github.com/fieldcure/WorkReport/assets/40055222/f1a4fa89-1787-4214-8c2e-ce46a0da8825" width="400">
+<br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/d96b0eb0-d4ee-4326-b168-c047e86050d3" width="400">
+<br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/f1a4fa89-1787-4214-8c2e-ce46a0da8825" width="400">
 
 ### 2024-01-22~2024-02-04
 - 클릭시 보이는 전극(템플릿), 회전&이동 함수 연동중
