@@ -5,8 +5,7 @@
 - [x] 테스트 코드 제거
 - [ ] 원패치 생성 함수 개선
 plane으로 intersection된 대각선 포인트들로 계산할 수 있도록 수정중
-![image](https://github.com/fieldcure/WorkReport/assets/40055222/52958eb5-af6f-472d-8141-fed85ce42629)
-
+<br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/52958eb5-af6f-472d-8141-fed85ce42629" width="400">
 
 ### 2024-02-12~2024-02-18
 
