@@ -5,7 +5,7 @@
 
 ## 주요 구현 방법
 
-<POI를 기준으로 TA 중심점과/ TA 중심점을 기준으로 각 전극의 중심점을 구하는 방법>
+<POI를 기준으로 TA 중심점과/ TA 중심점을 기준으로 각 전극의 중심점을 구하는 방법><br><br>
 방향벡터와 길이를 계산하기 위해서 평면상에서 포인트들은 출력<br>
 <table>
            <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/678c6a91-5325-4b6d-bdb3-3803ac1804b2" width="400"></td>
@@ -22,7 +22,7 @@ geodesic distance는 평면으로 자른 intersection을 따라가며 계산되�
            <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/cf30e1dc-fe2b-4233-ab72-17ffae09ca06" width="400"></td>
 </table>
 
-<사각형 전극/원 패치(?) 계산 방법><br>
+<사각형 전극/원 패치(?) 계산 방법><br><br>
 TA 중심점을 기준으로 V 방향 벡터 -V 방향 벡터를 이용하여 Up 포인트 Down 포인트들을 구함(geodesic distance)<br>
 <table>
            <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/28330932-e5ca-4469-aa92-0681a5b28a7d" width="400"></td>
