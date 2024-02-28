@@ -3,6 +3,39 @@
 ### 2024-02-26~2024-03-01
 - [ ] 코드 정리
 
+## 주요 구현 방법
+
+<POI를 기준으로 TA 중심점과/ TA 중심점을 기준으로 각 전극의 중심점을 구하는 방법>
+방향벡터와 길이를 계산하기 위해서 평면상에서 포인트들은 출력<br>
+<table>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/678c6a91-5325-4b6d-bdb3-3803ac1804b2" width="400"></td>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/7070e365-2458-403e-9a5e-5569873e9098" width="400"></td>
+</table>
+
+방향벡터를 계산한 후,<br>
+poi와 가장 가까운 점을 기준으로 방향벡터를 사용해 geodesic distance 계산<br>
+단위 벡터 x interval 을 이용해 계산하므로, interval이 작을수록 시간은 오래걸리고 해상도(?) 정밀도는 올라감
+geodesic distance는 평면으로 자른 intersection을 따라가며 계산되며, 계산할 distance에 tolerance를 설정할 수 있음
+<table>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/6e09cb60-8b5f-49a8-9770-d38a3587f708" width="400"></td>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/39169117-8f91-4963-a7ef-b8e5c805e0f1" width="400"></td>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/cf30e1dc-fe2b-4233-ab72-17ffae09ca06" width="400"></td>
+</table>
+
+<사각형 전극/원 패치(?) 계산 방법><br>
+TA 중심점을 기준으로 V 방향 벡터 -V 방향 벡터를 이용하여 Up 포인트 Down 포인트들을 구함(geodesic distance)<br>
+<table>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/28330932-e5ca-4469-aa92-0681a5b28a7d" width="400"></td>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/285af7c9-ec60-43a4-a8c3-b5dea3c1d436" width="400"></td>
+</table>
+
+Up 포인트/TA 중심 포인트/Down 포인트에서 Left 포인트/Right 포인트들을 구함(geodesic distance)<br>
+생성된 포인트들을 삼각형화<br>
+<table>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/d9735fe1-73fe-46ee-88b4-c6991d3d2120" width="400"></td>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/da956cc1-327e-4bd3-bf19-f8b8ad673ff6" width="400"></td>
+</table>
+
 ## 작업 내용
 
 ### 2024-02-19~2024-02-25
