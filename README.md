@@ -1,15 +1,20 @@
-## 목표 스케줄
-
 ## 작업 내용
 
 ### 2024-03-01 ~
-- [ ] 이전 버전에서의 섬세한 모양 & 전극 포인트를 찾는 부분을 함께 사용해서 좀 더 예쁘게 나올 수 있도록 개선
+- [x] 이전 버전에서의 섬세한 모양 & 전극 포인트를 찾는 부분을 함께 사용해서 좀 더 예쁘게 나올 수 있도록 개선
 
 일단 중심점 찾는 부분을 개선하였음
  <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/65299a32-eb60-4767-a8ff-4121bb5d13ba" width="400"></td>
  
 전극의 각 row의 포인트 개수를 일정하게 만들어 삼각형화(비틀어지는 모양이 없어지도록)
- <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/dec66332-a8a7-42fe-ad3d-403797691019" width="400"></td>
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/dec66332-a8a7-42fe-ad3d-403797691019" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/c19b15a7-c07f-41da-93ba-b47ad83a3172" width="400"></td>
+</table>
+<table>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/86464ce7-6b3e-4279-9011-f1239a0cc211" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/7d178280-a87a-4238-bbf2-be0e2677477d" width="400"></td>
+</table>
 
 ### 2024-02-19~2024-02-25
 - [x] 테스트 코드 제거
