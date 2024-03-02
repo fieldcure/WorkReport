@@ -8,8 +8,8 @@
 일단 중심점 찾는 부분을 개선하였음
  <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/65299a32-eb60-4767-a8ff-4121bb5d13ba" width="400"></td>
  
-방법 구상중 
- <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/65a22ba2-1755-4814-89d6-ac70e07c27fd" width="400"></td>
+전극의 각 row의 포인트 개수를 일정하게 만들어 삼각형화(비틀어지는 모양이 없어지도록)
+ <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/dec66332-a8a7-42fe-ad3d-403797691019" width="400"></td>
 
 ### 2024-02-19~2024-02-25
 - [x] 테스트 코드 제거
