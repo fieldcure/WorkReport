@@ -4,8 +4,7 @@
 - [x] 이전 버전에서의 섬세한 모양 & 전극 포인트를 찾는 부분을 함께 사용해서 좀 더 예쁘게 나올 수 있도록 개선
 
 전극의 각 row의 포인트 개수를 일정하게 만들어 삼각형화(비틀어지는 모양이 없어지도록)
--> 노란색 전극 패치에서 굴곡진 부분의 전극의 크기가 다름(버그인지 일단 확인중)
-    -> 원패치와 전극을 따로 만들게 되면 발생이 계속 될 듯
+전극의 위치가 틀어지는 문제가 있음
     -> 원패치 자체에서 전극을 한 층씩 쌓아올리는 방식으로 만들어야 이와 같은 문제를 해결할 수 있을 듯(아니면 한 치의 오차 없이 surface 상의 포인트들을 계산 해야 할 듯(단지 좌/우 or 위/아래 or 대각선 방향을 가지고 geodesic distance를 계산하면 오차가 나올 수 밖에 없음))
 
 <table>
@@ -13,8 +12,8 @@
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/c19b15a7-c07f-41da-93ba-b47ad83a3172" width="400"></td>
 </table>
 <table>
-           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/86464ce7-6b3e-4279-9011-f1239a0cc211" width="400"></td>
-           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/7d178280-a87a-4238-bbf2-be0e2677477d" width="400"></td>
+           <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/a8e3eae8-bacb-4d68-bd9e-b5562d6fdf17" width="400"></td>
+           <td><img src=https://github.com/fieldcure/WorkReport/assets/40055222/5c12c178-5303-4953-9e7a-b8c17893e6fd" width="400"></td>
 </table>
 
 하나의 대안이 될 수 있다고 생각한 방법(원패치의 좌표를 structured grid로 생성한 후, grid point 자체를 이용해 전극을 만듦)
