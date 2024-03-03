@@ -236,8 +236,15 @@ TA 중심점을 기준으로 V 방향 벡터 -V 방향 벡터를 이용하여 Up
 </table>
 
 Up 포인트/TA 중심 포인트/Down 포인트에서 Left 포인트/Right 포인트들을 구함(geodesic distance)<br>
-생성된 포인트들을 삼각형화<br>
 <table>
            <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/d9735fe1-73fe-46ee-88b4-c6991d3d2120" width="400"></td>
-           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/da956cc1-327e-4bd3-bf19-f8b8ad673ff6" width="400"></td>
 </table>
+
+포인트의 개수가 일정하도록 spline을 생성하여 spline 위의 포인트로 재배치<br>
+<table>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae2c3874-5248-4c5b-b8ce-e4f978e11090" width="400"></td>
+           <td><br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/936097ab-dad4-4b84-9d11-0876bcb55907" width="400"></td>
+</table>
+
+생성된 포인트들을 삼각형화<br>
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/632c3925-9404-4f65-a28e-f4ebee0fa765" width="400">
