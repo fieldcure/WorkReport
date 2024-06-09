@@ -1,11 +1,11 @@
-## 작업 내용
+# 작업 내용
 
-### 2024-03-11 ~ 2024-03-24
+## 2024-03-11 ~ 2024-03-24
 전극 에러 수정:하이드로겔, 세라믹, 메탈 너비 적용 에러 수정
 
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/1ef201a4-3772-4072-abaa-b4b673d1e21a" width="400">
 
-### 2024-03-01 ~ 2024-03-10
+## 2024-03-01 ~ 2024-03-10
 - [x] 원패치 사각전극 템플릿 버그 수정
 - [x] 이전 버전에서의 섬세한 모양 & 전극 포인트를 찾는 부분을 함께 사용해서 좀 더 예쁘게 나올 수 있도록 개선
 - [x] 사각형 모양 고정 구현, 위치 미세 조정 
@@ -30,7 +30,7 @@
 하나의 대안이 될 수 있다고 생각한 방법(원패치의 좌표를 structured grid로 생성한 후, grid point 자체를 이용해 전극을 만듦)
 <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/f2c691e4-4fec-477c-90b1-505f5bbcf5a5" width="400"></td>
 
-### 2024-02-19~2024-02-25
+## 2024-02-19~2024-02-25
 - [x] 테스트 코드 제거
 - [x] 원패치 생성 함수 개선
 - [x] 업데이트 된 코드에 merge
@@ -42,8 +42,7 @@ plane으로 intersection된 대각선 포인트들로 geodesic distance를 계�
 <br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/10211013-2d85-45f8-9306-4d6d242114f7" width="400">
 <br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/519d3ca9-2323-4df3-8311-4d19b8a745b9" width="400">
 
-### 2024-02-12~2024-02-14
-### 2024-02-05~2024-02-11
+## 2024-02-05~2024-02-14
 
 전극 생성은 하이드로겔, 세라믹, 메탈을 나누어서 직육면체 혹은 실린더를 생성하는 방식으로 바뀌었습니다.
 전극이 사각형인 경우에는 one patch의 생성 방식과 동일하게 4개의 꼭지점을 찾은 후 두 쌍의 꼭지점 사이의 거리를 조밀하게 subdivision 한 후 인체의 3d object 데이터에 projection하는 방식을 사용합니다.
@@ -61,7 +60,7 @@ plane으로 intersection된 대각선 포인트들로 geodesic distance를 계�
 <br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/d96b0eb0-d4ee-4326-b168-c047e86050d3" width="400">
 <br><img src="https://github.com/fieldcure/WorkReport/assets/40055222/f1a4fa89-1787-4214-8c2e-ce46a0da8825" width="400">
 
-### 2024-01-22~2024-02-04
+## 2024-01-22~2024-02-04
 - 클릭시 보이는 전극(템플릿), 회전&이동 함수 연동중
 - one patch도 성능 개선을 위해 코드 수정중
 - [x] 사각형 전극(템플릿)
@@ -103,11 +102,7 @@ plane으로 intersection된 대각선 포인트들로 geodesic distance를 계�
 
 - 직각으로 파고드는 메쉬(ㄱ 모형으로 파고드는 부분)에는 전극이 살짝 묻히는 현상이 있으므로 시간이 있으면 개선 예정(직각인게 말이 안되서 굳이 해당 경우를 예외 처리 해야하나 싶은 생각은 있지만...)
 
-
-
-
-
-### 2024-01-15~2024-01-21
+## 2024-01-15~2024-01-21
 - 코드 정리(함수 인자가 너무 많아서 클래스 작성)
 - OncoField 적용 시작 -> [https://github.com/hwkim0325/fieldlab-oncofield](https://github.com/hwkim0325/fieldlab-oncofield/tree/OncoField1.2(KFDA))
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/ae85ceb3-4242-4b5a-b480-74a0fd5c4547" width="400">
@@ -123,12 +118,11 @@ plane으로 intersection된 대각선 포인트들로 geodesic distance를 계�
 - 좀 더 심플한 방법도 생각 중(tolerance의 조정으로 좀 더 정확한 patch를 만들 수 있지만 시간이 오래걸림)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/b04600cf-92a4-4c98-a08e-b44d42dc05ff" width="700">
 
-
-### 2024-01-09~2024-01-14
+## 2024-01-09~2024-01-14
 - transducer array set의 개수(row m개, column n개)에 대응하여 각 transducer array set의 위치 확인 및 생성 완료(정확한 노말 계산은 온코필드에서 적용 예정)
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/d3a832db-19a8-4161-844b-82e95a6ee2d1" width="400">
 
-### 2024-01-06 ~ 2024-01-08
+## 2024-01-06 ~ 2024-01-08
 - 전극을 부착할 표면이 매끄럽지 않은 경우를 대비하여, 전극 중심점에서 평면을 생성하여 일정 거리 내부에 존재하는 점들이 적절한 방향으로 projection되는지 확인.
   projection 방향에 문제가 있으면 중심점을 surface로 부터 멀어지도록 이동. (전극의 두께도 고려하여 이동시킴)
 <table>
@@ -160,8 +154,7 @@ plane으로 intersection된 대각선 포인트들로 geodesic distance를 계�
            <td><img src="https://github.com/fieldcure/WorkReport/assets/40055222/cfceb88f-d208-4237-8d7c-e7a21ed80655" width="400"></td>
 </table>
 
-
-### ~2024-01-05
+## ~2024-01-05
 - 표면을 따라가며 distance 계산
 1. U, V 벡터가 존재할 때, Transducer Array의 U or V벡터 방향으로 진행
 3. surface 표면에 projection
@@ -216,7 +209,7 @@ plane으로 intersection된 대각선 포인트들로 geodesic distance를 계�
 </table>
 
 
-## 주요 구현 방법
+# 주요 구현 방법
 
 <POI를 기준으로 TA 중심점과/ TA 중심점을 기준으로 각 전극의 중심점을 구하는 방법><br><br>
 방향벡터와 길이를 계산하기 위해서 평면상에서 포인트들은 출력<br>
