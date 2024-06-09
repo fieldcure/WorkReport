@@ -1,8 +1,8 @@
 # 작업 내용
 
 ## 2024-06-10 ~ 
-- [ ] GTV데이터가 있는 상태에서 확인하지는 못했음(OncoField의 리드툴 라이센스 에러가 떠서 별도 프로젝트에서 진행함)
-- [ ] GPU가 아닌 CPU로 진행하였음(onnx 버전과 cuda 버전을 정해서 확인해보아야 함) -> https://tw0226.tistory.com/119
+- [ ] GTV데이터가 있는 상태에서 확인하지는 못했음(OncoField의 리드툴 라이센스 에러가 떠서 별도 프로젝트에서 진행함) ⇒ https://github.com/fieldcure/onnx
+- [ ] GPU가 아닌 CPU로 진행하였음(onnx 버전과 cuda 버전을 정해서 확인해보아야 함) ⇒ https://tw0226.tistory.com/119
 
 ## 2024-06-07 ~ 2024-06-09
 
