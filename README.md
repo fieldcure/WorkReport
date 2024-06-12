@@ -1,7 +1,14 @@
 # 작업 내용
 
+
+## 2024-06-12~
+roi만드는 부분 좌표계 변환하는 부분이 이상해서 확인 필요
+
 ## 2024-06-12
-stage1과 stage2의 결과를 roi로 만들어 표시
+stage1과 stage2의 결과를 roi로 만들어 표시 -> roi만드는 부분 좌표계 변환하는 부분이 이상해서 확인 필요 
+
+![image](https://github.com/fieldcure/WorkReport/assets/40055222/2ee90acc-4b7a-4dea-b420-5b3498cc474e)
+
 
 ## 2024-06-11
 컨투어 만드는 부분 버그 수정
