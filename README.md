@@ -2,7 +2,9 @@
 
 ## 2024-06-15~16
 gpu에서 동작가능하게 수정(방법은 전달할 예정)
+
 최신 모델의 ONNX 버전이 V5인데 V6로 변경해 줄 수 있는지 문의 예정(왼쪽이 옛날에 작업한 모델(ONNXV6)), 오른쪽이 최신 모델(ONNXV5))
+
 ![image](https://github.com/fieldcure/WorkReport/assets/40055222/586723f0-0605-4daf-950d-b74bdd922d51)
 
 ## 2024-06-12~14
