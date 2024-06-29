@@ -1,7 +1,31 @@
 # 작업 내용
 
 ## 2024-06-25~30
-소스 코드 확인 중
+소스 코드 확인 중 -> 필요 없는 코드 제거 & 코멘트 정리가 필요해보임
+
+### 작업 예정 함수들
+1.real_case_test_2D_3D의 <br>
+real_dataset(for 2d) <br>
+real_2D_test <br>
+merge2 <br>
+
+{ # 확인 후 필요한 경우 작업 <br>
+    imgTemp = np.expand_dims(img, axis=0) <br>
+    data_final = np.concatenate([imgTemp, output_2D], axis=0) # data_final = [7,256,256,256] <br>
+}
+
+real_dataset(for 3d) <br>
+real_3D_test <br>
+merge_cube <br>
+
+2.real_case_test_2D의 <br>
+real_dataset <br>
+real_2D_test <br>
+merge2 <br>
+
++α -> [256,256,256]인 데이터셋으로 정상적으로 동작하면 이후 작업 시작 <br>
+resampling <br>
+padding <br>
 
 ## 2024-06-15~16
 gpu에서 동작가능하게 수정(방법은 전달할 예정)
