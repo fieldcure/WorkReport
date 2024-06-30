@@ -1,7 +1,8 @@
 # 작업 내용
 
 ## 2024-06-25~30
-소스 코드 확인 중 -> 필요 없는 코드 제거 & 코멘트 정리가 필요해보임
+seperate2D & merge2D 함수 구현 후 sigmoid 결과 확인
+<img src="https://github.com/fieldcure/WorkReport/assets/40055222/40356d60-7406-42cb-a048-c33f6aabe642" width="200"/>
 
 ### 작업 예정 함수들
 1.real_case_test_2D_3D의 <br>
