@@ -2,6 +2,7 @@
 
 ## 2024-06-25~30
 seperate2D & merge2D 함수 구현 후 sigmoid 결과 확인
+
 <img src="https://github.com/fieldcure/WorkReport/assets/40055222/40356d60-7406-42cb-a048-c33f6aabe642" width="200"/>
 
 ### 작업 예정 함수들
