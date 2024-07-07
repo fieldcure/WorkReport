@@ -7,6 +7,7 @@ seperate3D & merge3D 함수 구현 -> gpu 메모리 부족(사용하는 gpu가 2
 이미지 사이즈 padding&crop은 그 이후 구현 <br>
 
 아래 사진은 patch size = (128, 128, 128), stride = (128, 128, 128)을 사용한 결과 -> 각 patch의 테두리에 경계선이 생기는데 특별히 문제가 없는지 의문
+
 ![image](https://github.com/fieldcure/WorkReport/assets/40055222/54bee062-89bc-4a1b-9951-fcd85f51cacf)
 
 ## 2024-06-25~30
