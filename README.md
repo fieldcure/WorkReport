@@ -1,5 +1,14 @@
 # 작업 내용
 
+## 2024-07-01~07-08
+seperate2D & merge2D 함수 간략화 <br>
+seperate3D & merge3D 함수 구현 -> gpu 메모리 부족(사용하는 gpu가 2gb여서 그런 듯)이므로 회사 컴퓨터로 확인 필요 <br>
+3D label 결과 확인중 -> 문제 없으면 stage2 구현할 예정 <br>
+이미지 사이즈 padding&crop은 그 이후 구현 <br>
+
+아래 사진은 patch size = (128, 128, 128), stride = (128, 128, 128)을 사용한 결과 -> 각 patch의 테두리에 경계선이 생기는데 특별히 문제가 없는지 의문
+![image](https://github.com/fieldcure/WorkReport/assets/40055222/54bee062-89bc-4a1b-9951-fcd85f51cacf)
+
 ## 2024-06-25~30
 seperate2D & merge2D 함수 구현 후 sigmoid 결과 확인
 
