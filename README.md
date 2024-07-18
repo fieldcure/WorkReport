@@ -1,7 +1,7 @@
 # 작업 내용
 
 
-
+메모 
 
 https://www.youtube.com/watch?v=KoCms6vMH6A
 
