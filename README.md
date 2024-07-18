@@ -1,5 +1,15 @@
 # 작업 내용
 
+
+
+
+https://www.youtube.com/watch?v=KoCms6vMH6A
+
+
+
+
+
+
 ## 2024-07-01~07-08
 seperate2D & merge2D 함수 간략화 <br>
 seperate3D & merge3D 함수 구현 -> gpu 메모리 부족(사용하는 gpu가 2gb여서 그런 듯)이므로 회사 컴퓨터로 확인 필요 <br>
