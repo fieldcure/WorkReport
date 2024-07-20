@@ -12,11 +12,18 @@
 ![image](https://github.com/user-attachments/assets/b970a3bf-e4b3-4d85-8a9f-41d85c59f470)
 
 ### 2024년도 모델 파일 에러
+python에서의 모델은 <br>
+인풋 데이터가 float32 <br>
+아웃풋 데이터가 float16 <br>
+인데 <br>
+onnx 파일은 <br>
+인풋 데이터가 float32 <br>
+아웃풋 데이터가 float32 <br>
+로 잘못되어 있음 <br>
+c++ 코드로 돌리면 결과 사이즈가 예상 사이즈의 1/2 임 (4 * 128 * 128 * 128 이여야 하는데 4 * 128 * 128 * 128 / 2)  <br>
+용하에게 새로 모델을 요청하였지만 언제 받을 수 있을지는 잘 모르겠음 <br>
 
 ![image](https://github.com/user-attachments/assets/3e9250fa-3282-471b-9e1b-c829f2ca587b)
-
-
-
 
 ## 2024-07-01~07-08
 seperate2D & merge2D 함수 간략화 <br>
