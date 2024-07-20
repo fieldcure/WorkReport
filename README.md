@@ -1,8 +1,7 @@
 # 작업 내용
 
 
-메모 
-
+## 2024-07-15~07-22
 ### 2022년도 모델로 돌린 결과 GPU 11기가 정도 잡아먹음
 ![image](https://github.com/user-attachments/assets/68f8d5dc-af47-4c4e-b92a-eb16399436e1)
 
@@ -24,6 +23,10 @@ c++ 코드로 돌리면 결과 사이즈가 예상 사이즈의 1/2 임 (4 * 128
 용하에게 새로 모델을 요청하였지만 언제 받을 수 있을지는 잘 모르겠음 <br>
 
 ![image](https://github.com/user-attachments/assets/3e9250fa-3282-471b-9e1b-c829f2ca587b)
+
+## 2024-07-09~07-14
+Seperate & merge 코드를 이용해 stage2D가 돌아가도록 적용
+버그 수정 및 테스트
 
 ## 2024-07-01~07-08
 seperate2D & merge2D 함수 간략화 <br>
