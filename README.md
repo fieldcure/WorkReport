@@ -3,9 +3,17 @@
 
 메모 
 
-https://www.youtube.com/watch?v=KoCms6vMH6A
+### 2022년도 모델로 돌린 결과 GPU 11기가 정도 잡아먹음
+![image](https://github.com/user-attachments/assets/68f8d5dc-af47-4c4e-b92a-eb16399436e1)
 
+### 2022년도 모델 결과
+2024년도 모델에서도 적용 가능한 seperate & merge 코드로 동작하는 것을 확인함
+8분 정도 소요됨
+![image](https://github.com/user-attachments/assets/b970a3bf-e4b3-4d85-8a9f-41d85c59f470)
 
+### 2024년도 모델 파일 에러
+
+![image](https://github.com/user-attachments/assets/3e9250fa-3282-471b-9e1b-c829f2ca587b)
 
 
 
