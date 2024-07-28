@@ -3,7 +3,7 @@
 ## 2024-07-23~07-28
 ### External/Stage1(2D only)/Stage1(2D+3D)/Stage2로 나누었음
 -> 정상적으로 동작 : 2022년 모델(Stage1 2D, Stage1 2D+3D, Stage2 2D), 2024년 모델(Stage1 2D, Stage2 2D) <br>
--> 비정삭적으로 동작 : 2024년 모델(Stage1 3D)　-> 모델을 새로 보내줄 때마다 결과가 다름
+-> 비정삭적으로 동작 : 2024년 모델(Stage1 3D)
 
 ![image](https://github.com/user-attachments/assets/78e933e6-00ec-4382-b3f8-b81fe054676d)
 ![image](https://github.com/user-attachments/assets/9c32a6b9-924e-405d-bfca-0f3b2dc92443)
