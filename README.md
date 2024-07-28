@@ -1,5 +1,18 @@
 # 작업 내용
 
+## 2024-07-23~07-28
+### External/Stage1(2D only)/Stage1(2D+3D)/Stage2로 나누었음
+-> 정상적으로 동작 : 2022년 모델(Stage1 2D, Stage1 2D+3D, Stage2 2D), 2024년 모델(Stage1 2D, Stage2 2D) <br>
+-> 비정삭적으로 동작 : 2024년 모델(Stage1 3D)
+
+![image](https://github.com/user-attachments/assets/78e933e6-00ec-4382-b3f8-b81fe054676d)
+![image](https://github.com/user-attachments/assets/9c32a6b9-924e-405d-bfca-0f3b2dc92443)
+![image](https://github.com/user-attachments/assets/16789167-eade-4886-a6cc-6111fdeb145c)
+![image](https://github.com/user-attachments/assets/c4e140e1-f88d-43a5-a9bc-cd918aedc191)
+![image](https://github.com/user-attachments/assets/6657ad4e-8d70-4d83-8888-1eb0566f4cd1)
+
+### 데이터 비교(Stage1의 2D의 결과값이 Stage1의 3D의 input으로 그대로 들어가기 때문에, Stage1의 3D가 필요한지 의문)
+![image](https://github.com/user-attachments/assets/1b8b02b4-7a02-4448-9172-9f9ad82245dd)
 
 ## 2024-07-15~07-22
 ### 2022년도 모델로 돌린 결과 GPU 11기가 정도 잡아먹음
