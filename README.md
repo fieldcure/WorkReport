@@ -7,7 +7,8 @@
 ![image](https://github.com/user-attachments/assets/f5b4091b-678a-44a3-b8f1-2e66ea0e32cd)
 
 ### 256사이즈가 아닌 데이터에서 동작하도록 수정
-(288, 384, 192)로 테스트함
+(288, 384, 192)로 테스트함 -> release모드에서 adaptiveHistogram 적용할 필요가 있으나, debug 모드에서는 itk가 굉장히 오래 걸리기 때문에 빼 두었음
+용하 코드로 동작하는지 확인할 필요가 있어보임(gtv적용할 때)
 
 ![image](https://github.com/user-attachments/assets/bfff6043-50bb-4f40-b9f2-863a036496bc)
 
