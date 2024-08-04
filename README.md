@@ -1,5 +1,16 @@
 # 작업 내용
 
+## 2024-07-29~08-04
+### 이미지 외곽에 선 나오는 버그 해결
+### GTV 적용할 수 있도록 수정
+
+![image](https://github.com/user-attachments/assets/f5b4091b-678a-44a3-b8f1-2e66ea0e32cd)
+
+### 256사이즈가 아닌 데이터에서 동작하도록 수정
+(288, 384, 192)로 테스트함
+
+![image](https://github.com/user-attachments/assets/bfff6043-50bb-4f40-b9f2-863a036496bc)
+
 ## 2024-07-23~07-28
 ### External/Stage1(2D only)/Stage1(2D+3D)/Stage2로 나누었음
 -> 정상적으로 동작 : 2022년 모델(Stage1 2D, Stage1 2D+3D, Stage2 2D), 2024년 모델(Stage1 2D, Stage2 2D) <br>
