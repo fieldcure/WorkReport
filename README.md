@@ -29,7 +29,6 @@
 ![image](https://github.com/user-attachments/assets/3370e10f-b1bf-4c72-be5f-7bfd0c1443e3)
 ![image](https://github.com/user-attachments/assets/35212e0d-6114-4ca5-8a3d-867eb31b2984)
 
-
 ## 2024-07-29~08-04
 ### 이미지 외곽에 선 나오는 버그 해결
 ### GTV 적용할 수 있도록 수정
