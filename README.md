@@ -6,6 +6,9 @@
 어떻게 작업할지 코드 확인
 
 ### 메디칼 계산 속도개선 확인중(medical/data1/ 폴더에 존재하는 헤드 모델로 확인)
+
+현 상황에서 가장 빠른 계산은 tetrahedralization 10~30초 전기장 계산+파일 저장이 1분 정도 걸림(계속 확인중)
+
 #### 5mm resolution(width/height)
 
 ![image](https://github.com/user-attachments/assets/545be85a-2759-42b2-8dc3-651d4a6a1563)
