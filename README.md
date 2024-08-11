@@ -23,7 +23,7 @@
 ![image](https://github.com/user-attachments/assets/09d14d7d-6769-4420-b165-87642e5fbe0f)
 ![image](https://github.com/user-attachments/assets/8fa6ea7d-3ac5-40f5-8413-724ad51d0723)
 
-#### 5mm resolution(width/height) + 15장씩 체크(slice)
+#### 5mm resolution(width/height) + 15장씩 체크(slice) -> 10장 이상씩 체크하면 너무 경사지게 만들어져서 에러가 날 가능성이 보임(전극 부착 실패 등)
 
 ![image](https://github.com/user-attachments/assets/8781ec76-6c37-4d5b-af29-35cf09e35e8b)
 ![image](https://github.com/user-attachments/assets/3370e10f-b1bf-4c72-be5f-7bfd0c1443e3)
