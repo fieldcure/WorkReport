@@ -5,16 +5,24 @@
 용하에게 onnx 모델 요청함
 어떻게 작업할지 코드 확인
 
-### 메디칼 계산 속도개선
-확인중
-
-### 5mm resolution(width/height)
+### 메디칼 계산 속도개선 확인중(medical/data1/ 폴더에 존재하는 헤드 모델로 확인)
+#### 5mm resolution(width/height)
 
 ![image](https://github.com/user-attachments/assets/545be85a-2759-42b2-8dc3-651d4a6a1563)
 
-### 5mm resolution(width/height) + 5장씩 체크(slice)
+#### 5mm resolution(width/height) + 5장씩 체크(slice)
 
-![image](https://github.com/user-attachments/assets/a3d282c4-5306-473d-bd2c-787e9e16f19c)
+![image](https://github.com/user-attachments/assets/fe05f7ea-fe48-4f5b-be28-2ff7983ff9d3)
+![image](https://github.com/user-attachments/assets/405ca5e9-f59d-47fc-84fb-4e64c2b3cb36)
+![image](https://github.com/user-attachments/assets/a751782f-0eeb-4425-95ff-c7343021100d)
+
+
+#### 10mm resolution(width/height) + 10장씩 체크(slice)
+
+![image](https://github.com/user-attachments/assets/f6ab6512-7473-4394-8f13-11a88b94bff1)
+![image](https://github.com/user-attachments/assets/09d14d7d-6769-4420-b165-87642e5fbe0f)
+![image](https://github.com/user-attachments/assets/8fa6ea7d-3ac5-40f5-8413-724ad51d0723)
+
 
 
 ## 2024-07-29~08-04
