@@ -7,7 +7,8 @@
 
 ### 메디칼 계산 속도개선 확인중(medical/data1/ 폴더에 존재하는 헤드 모델로 확인)
 
-현 상황에서 가장 빠른 계산은 tetrahedralization 10~30초 전기장 계산+파일 저장이 1분 정도 걸림(계속 확인중)
+대략적으로 전극 부착 완료까지 30초 전기장 계산+파일 저장이 1분 정도 걸림(계속 확인중)
+
 
 #### 5mm resolution(width/height)
 
@@ -31,6 +32,9 @@
 ![image](https://github.com/user-attachments/assets/8781ec76-6c37-4d5b-af29-35cf09e35e8b)
 ![image](https://github.com/user-attachments/assets/3370e10f-b1bf-4c72-be5f-7bfd0c1443e3)
 ![image](https://github.com/user-attachments/assets/35212e0d-6114-4ca5-8a3d-867eb31b2984)
+
+#### qa40 스위치 제거하면 꽤 빨라짐
+5mm resolution(width/height) + 15장씩 체크(slice)의 데이터의 경우 50초 정도 빨라짐 -> coarse일 경우에는 qa 스위치 제거하는 것도 방법일 수도 있을 것 같음(삼각형이 커지면 결과가 이상하게 보일 수는 있을 듯)
 
 ## 2024-07-29~08-04
 ### 이미지 외곽에 선 나오는 버그 해결
