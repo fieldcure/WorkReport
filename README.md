@@ -12,6 +12,10 @@
 
 ![image](https://github.com/user-attachments/assets/545be85a-2759-42b2-8dc3-651d4a6a1563)
 
+### 5mm resolution(width/height) + 5장씩 체크(slice)
+
+![image](https://github.com/user-attachments/assets/a3d282c4-5306-473d-bd2c-787e9e16f19c)
+
 
 ## 2024-07-29~08-04
 ### 이미지 외곽에 선 나오는 버그 해결
