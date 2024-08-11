@@ -8,6 +8,11 @@
 ### 메디칼 계산 속도개선
 확인중
 
+### 5mm resolution(width/height)
+
+![image](https://github.com/user-attachments/assets/545be85a-2759-42b2-8dc3-651d4a6a1563)
+
+
 ## 2024-07-29~08-04
 ### 이미지 외곽에 선 나오는 버그 해결
 ### GTV 적용할 수 있도록 수정
