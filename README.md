@@ -6,6 +6,8 @@ CalculateCurrents함수 병렬처리 9초 -> 1.5초
 InitializeVoxelsParallel함수 병렬처리 최적화 18초 -> 8초 (yield return은 한 번만 처리하는 것이 빠름, WithDegreeOfParallelism으로 최대 프로세스를 사용, tetrahedron도 병렬처리)
 AnalyzeVoxels함수 병렬처리 11초 -> 3초
 
+#### TriangulateFacetsParallel 버그 수정
+
 #### 3mm resolution(width/height) + 3장씩 체크 
 3분으로 줄임
 
