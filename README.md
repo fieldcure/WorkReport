@@ -9,6 +9,10 @@ AnalyzeVoxels함수 병렬처리 11초 -> 3초
 #### 3mm resolution(width/height) + 3장씩 체크 
 3분으로 줄임
 
+#### 2mm resolution(width/height) + 2장씩 체크 
+6분 -> 마지막에 파일 작성이 1분 30초 정도 걸림(필요한 데이터만 저장하는게 좋을지도?)
+![image](https://github.com/user-attachments/assets/8030e688-f13f-4ab4-a5e5-1e4b060d0eca)
+
 ## 2024-08-04~2024-08-11
 ### 바디모델
 용하에게 onnx 모델 요청함
