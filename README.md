@@ -12,6 +12,8 @@ key 존재하지 않는 경우 예외 처리 <br>
 #### 5mm resolution(width/height) + 5장씩 체크
 1분 57초
 
+![image](https://github.com/user-attachments/assets/26748c27-f7a1-47fa-a048-539724cafc20)
+
 #### 5mm resolution(width/height) + 10장씩 체크
 1분 50초 -> 마지막에 파일 작성이 40초 정도 걸림(필요한 데이터만 저장하는게 좋을지도?)
 
