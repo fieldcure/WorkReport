@@ -11,6 +11,7 @@ AnalyzeVoxels함수 병렬처리 11초 -> 3초
 
 #### 2mm resolution(width/height) + 2장씩 체크 
 6분 -> 마지막에 파일 작성이 1분 30초 정도 걸림(필요한 데이터만 저장하는게 좋을지도?)
+
 ![image](https://github.com/user-attachments/assets/8030e688-f13f-4ab4-a5e5-1e4b060d0eca)
 
 ## 2024-08-04~2024-08-11
