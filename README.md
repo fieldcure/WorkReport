@@ -7,6 +7,7 @@ InitializeVoxelsParallel함수 병렬처리 최적화 18초 -> 8초 (yield retur
 AnalyzeVoxels함수 병렬처리 11초 -> 3초 <br>
 
 #### Smoothing 평균 곡률 변화량 측정하여 정지 조건 설정
+인터섹션 체크하는 부분을 수정해야할 듯
 
 #### 결과 (256x256x256 헤드)
 1.0mm : <br>
