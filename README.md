@@ -6,23 +6,23 @@ CalculateCurrents함수 병렬처리 9초 -> 1.5초 <br>
 InitializeVoxelsParallel함수 병렬처리 최적화 18초 -> 8초 (yield return은 한 번만 처리하는 것이 빠름, WithDegreeOfParallelism으로 최대 프로세스를 사용, tetrahedron도 병렬처리) <br>
 AnalyzeVoxels함수 병렬처리 11초 -> 3초 <br>
 
-#### TriangulateFacetsParallel 버그 수정
-key 존재하지 않는 경우 예외 처리 <br>
+#### Smoothing 평균 곡률 변화량 측정하여 정지 조건 설정
 
-#### 5mm resolution(width/height) + 5장씩 체크
-1분 57초
-
-![image](https://github.com/user-attachments/assets/26748c27-f7a1-47fa-a048-539724cafc20)
-
-#### 5mm resolution(width/height) + 10장씩 체크
-1분 50초 -> 마지막에 파일 작성이 40초 정도 걸림(필요한 데이터만 저장하는게 좋을지도?)
-
-![image](https://github.com/user-attachments/assets/75eff67d-4f00-475c-a9de-a60b6bac1143)
-
-#### 2mm resolution(width/height) + 6장씩 체크 
-6분 -> 마지막에 파일 작성이 1분 30초 정도 걸림(필요한 데이터만 저장하는게 좋을지도?)
-
-![image](https://github.com/user-attachments/assets/8030e688-f13f-4ab4-a5e5-1e4b060d0eca)
+#### 결과 (256x256x256 헤드)
+1.0mm : 
+1.2mm : 
+1.4mm : 
+1.6mm : 
+1.8mm : 00:12:20.4134863
+2.0mm : 00:07:14.7022259
+3.0mm : 00:03:24.4200601
+4.0mm : 00:02:21.7411175
+5.0mm : 00:01:48.6029094
+6.0mm : 00:01:46.6005471
+7.0mm : 00:01:37.0357475
+8.0mm : 00:01:34.5769245
+9.0mm : 00:01:25.5644573
+10.0mm : 00:01:38.8276500
 
 ## 2024-08-04~2024-08-11
 ### 바디모델
