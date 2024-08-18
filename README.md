@@ -2,6 +2,7 @@
 
 ## 2024-08-12~2024-08-19
 ### engraved.poly 확인이 필요할 듯->TriangulateFacetsParallel에서key가 없다고 에러가 남
+![image](https://github.com/user-attachments/assets/035e6f9f-9e89-480d-943f-00fe4ba4f408)
 ![image](https://github.com/user-attachments/assets/f1b511de-4068-4349-bc9d-f8c0f9223159)
 
 ### 메디칼 계산 속도개선
