@@ -1,6 +1,9 @@
 # 작업 내용
 
 ## 2024-08-12~2024-08-19
+### engraved.poly 확인이 필요할 듯->TriangulateFacetsParallel에서key가 없다고 에러가 남
+![image](https://github.com/user-attachments/assets/f1b511de-4068-4349-bc9d-f8c0f9223159)
+
 ### 메디칼 계산 속도개선
 CalculateCurrents함수 병렬처리 9초 -> 1.5초 <br>
 InitializeVoxelsParallel함수 병렬처리 최적화 18초 -> 8초 (yield return은 한 번만 처리하는 것이 빠름, WithDegreeOfParallelism으로 최대 프로세스를 사용, tetrahedron도 병렬처리) <br>
