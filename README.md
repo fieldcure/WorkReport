@@ -2,9 +2,9 @@
 
 ## 2024-08-20~2024-08-26
 병렬처리 -> 결과에 영향이 있으므로 제외<br>
-InitializeVoxelsParallel의 병렬 처리가 가장 영향이 크고,
-CalculateCurrents, AnalyzeVoxels도 병령 처리에 영향이 다소 있음
-속도보다 정확도가 더 중요한 경우는 "레이블맵 z축 resolution 수정"만 적용하는 것이 맞을 듯
+InitializeVoxelsParallel의 병렬 처리가 가장 영향이 크고,<br>
+CalculateCurrents, AnalyzeVoxels도 병령 처리에 영향이 다소 있음<br>
+속도보다 정확도가 더 중요한 경우는 "레이블맵 z축 resolution 수정"만 적용하는 것이 맞을 듯<br>
 ![image](https://github.com/user-attachments/assets/3347714d-1ac1-48ba-a884-cba7b5a7ae7b)
 
 ## 2024-08-12~2024-08-19
