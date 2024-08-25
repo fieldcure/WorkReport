@@ -5,9 +5,11 @@
 온코필드에서 바디 이미지 로드할 수 없음
 ![image](https://github.com/user-attachments/assets/37e30968-4357-44ec-960c-7f433d57e0d5)
 파이썬 코드 확인중
+
 https://github.com/fieldcure/fieldlab-deepedge/blob/3567238a7d99e768ad13c99ff81c70d4f8c52890/deepedge/inferers/inferer_total.py#L784
 https://github.com/fieldcure/fieldlab-deepedge/blob/3567238a7d99e768ad13c99ff81c70d4f8c52890/deepedge/inferers/dic_rt.py#L67
-특히 밑의 사진은 설명이 필요할 것 같아 용하와 얘기중
+
+특히 밑의 사진은 설명이 필요할 것 같아 용하와 얘기중<br>
 ![image](https://github.com/user-attachments/assets/59d94983-42c0-4b14-8ce3-7a5d0d814142)
 
 ### 메디컬 계산 속도개선
