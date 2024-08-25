@@ -4,8 +4,9 @@
 ### 바디모델 오토 세그멘테이션
 온코필드에서 바디 이미지 로드할 수 없음
 ![image](https://github.com/user-attachments/assets/37e30968-4357-44ec-960c-7f433d57e0d5)
-파이썬 코드 확인중 : 결과 숫자가 어떤 장기인지 알 수 없어서 용하에게 확인중
-![image](https://github.com/user-attachments/assets/082f6519-8198-4a28-a861-4e5fad3b6367)
+파이썬 코드 확인중
+https://github.com/fieldcure/fieldlab-deepedge/blob/3567238a7d99e768ad13c99ff81c70d4f8c52890/deepedge/inferers/inferer_total.py#L784
+https://github.com/fieldcure/fieldlab-deepedge/blob/3567238a7d99e768ad13c99ff81c70d4f8c52890/deepedge/inferers/dic_rt.py#L67
 
 
 ### 메디컬 계산 속도개선
