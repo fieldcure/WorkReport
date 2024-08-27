@@ -1,4 +1,10 @@
 # 작업 내용
+## 2024-08-27~2024-09-01
+### 메디컬 계산 속도개선
+정확한 수치가 확인중
+기존 : 계산중 <br>
+CalculateCurrents, AnalyzeVoxels도 병령 처리 :  00:15:46.6076131 <br>
+CalculateCurrents, AnalyzeVoxels, InitializeVoxelsParallel의 병렬 처리 : 00:14:59.5028426 <br>
 
 ## 2024-08-20~2024-08-26
 ### 바디모델 오토 세그멘테이션
