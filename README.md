@@ -1,6 +1,8 @@
 # 작업 내용
 ## 2024-08-27~2024-09-01
-### 메디컬 계산 속도개선
+### 메디컬 계산 속도개선(병렬 처리 검증 (2mm에서))
+-> 값의 차이가 많이 나므로 병렬처리는 사용하지 않는 것이 맞을 듯(z축으로 resolution 설정하는 코드만 적용해도 1.6mm~10mm까지 계산한 결과의 시간이 나옴)
+
 기존 : 00:16:21.5442381 <br>
 CalculateCurrents, AnalyzeVoxels도 병령 처리 :  00:15:46.6076131 / 오리지날 ElectricField01과의 차이값의 합 : 14417.622683560106 <br>
 CalculateCurrents, AnalyzeVoxels, InitializeVoxelsParallel의 병렬 처리 : 00:14:59.5028426 / 오리지날 ElectricField01과의 차이값의 합 : 15119.780249248848 <br>
