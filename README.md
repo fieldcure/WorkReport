@@ -3,8 +3,8 @@
 ### 메디컬 계산 속도개선
 정확한 수치가 확인중 <br>
 기존 : 00:16:21.5442381 <br>
-CalculateCurrents, AnalyzeVoxels도 병령 처리 :  00:15:46.6076131 <br>
-CalculateCurrents, AnalyzeVoxels, InitializeVoxelsParallel의 병렬 처리 : 00:14:59.5028426 <br>
+CalculateCurrents, AnalyzeVoxels도 병령 처리 :  00:15:46.6076131 / 오리지날 ElectricField01과의 차이값의 합 : 14417.622683560106 <br>
+CalculateCurrents, AnalyzeVoxels, InitializeVoxelsParallel의 병렬 처리 : 00:14:59.5028426 / 오리지날 ElectricField01과의 차이값의 합 : 15119.780249248848 <br>
 
 ## 2024-08-20~2024-08-26
 ### 바디모델 오토 세그멘테이션
