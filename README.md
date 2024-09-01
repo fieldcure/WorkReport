@@ -9,13 +9,13 @@ CalculateCurrents, AnalyzeVoxels, InitializeVoxelsParallel의 병렬 처리 : 00
 ![image](https://github.com/user-attachments/assets/06d3b05f-481b-4ffb-9947-491dfa40e02c)
 
 ### 바디모델 오토 세그멘테이션
-각 모델 별 결과 샘플
+각 모델 별 결과 샘플<br>
 ![image](https://github.com/user-attachments/assets/ce1ba7d1-1939-4ebb-9026-795af3437203)
 
-합쳐서 하나의 이미지에서 추출한 결과 샘플
+합쳐서 하나의 이미지에서 추출한 결과 샘플<br>
 ![image](https://github.com/user-attachments/assets/ce6a3f84-df91-4151-a423-fd4f25f3053d)
 
-gpu메모리 사용량&처리시간
+gpu메모리 사용량&처리시간<br>
 ![image](https://github.com/user-attachments/assets/eb2ed6f4-1981-4034-9445-b65ca1a85709)
 
 온코필드에서 출력하는 부분 작업중
