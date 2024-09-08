@@ -1,6 +1,19 @@
 # 작업 내용
 
 ## 2024-09-02~2024-09-08
+### conductivity & Permittivity 계산
+--> 주파수 150000(Study에 저장된 기본값)으로 계산한 결과, conductivty & permittivity 값이 문제 없는지 확인 필요
+#### GTV
+-> 받은 목록에 GTV 속성 값이 존재하지 않음
+![image](https://github.com/user-attachments/assets/53a86a12-c020-4974-9088-38d0ecb0136f)
+
+#### 헤드 모델
+![image](https://github.com/user-attachments/assets/4589b30c-e9af-464b-affb-cbf80a2c7058)
+
+#### 바디 모델
+![image](https://github.com/user-attachments/assets/8b93ecae-3122-42c5-b2f5-f82487b5aaeb)
+![image](https://github.com/user-attachments/assets/0ffcad35-6efe-4f86-9969-96e61f052c7f)
+
 ### 바디모델 컨투어 추출
 ![image](https://github.com/user-attachments/assets/c832eeee-69ad-429a-acb7-9eeee592bea5)
 
