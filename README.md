@@ -10,7 +10,7 @@
 
 ### Study 생성시 만들어지는 Contour 부분
 - 기존에 존재하는 자동으로 External Contour 생성하는 코드가 필요한지 잘 모르겠음(헤드 모델의 경우 1분 정도 걸림)
-- auto segmentation으로 바꾸는 방법은 생각해봤지만, Head 모델과 Body 모델이 나누어져 있는 점, 그리고 Body 모델의 처리 시간이 5분 이라는 점은 고려해서 결정해야 할 듯
+- auto segmentation으로 바꾸는 방법은 생각해봤지만, Head 모델과 Body 모델이 나누어져 있는 점, 그리고 Body 모델에서 external이 출력 결과에 존재하지 않는 점은 고려해서 결정해야 할 듯
   
 ![image](https://github.com/user-attachments/assets/73fd28e5-c23d-46ed-bbbc-deedd42dbc17)
 
