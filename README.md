@@ -1,6 +1,7 @@
 # 작업 내용
 ## 2024-09-16~2024-09-22
 ### 2D/3D/Body Inference 공통 부분 리팩토링
+![image](https://github.com/user-attachments/assets/0d711560-dace-4f81-ace1-fc640305e425)
 
 ### 신경이 쓰이는 부분(?)
 색상이 너무 비슷해서 구별이 어려운 점이 있음<br>
