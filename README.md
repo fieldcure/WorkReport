@@ -1,4 +1,16 @@
 # 작업 내용
+## 2024-09-16~2024-09-22
+### 2D/3D/Body Inference 공통 부분 리팩토링
+
+### 신경이 쓰이는 부분(?)
+색상이 너무 비슷해서 구별이 어려운 점이 있음<br>
+랜덤으로 색상을 지정하고 있는지 잘 모르겠으나, rbg가 아니라 hsl의 hue 부분을 random 으로 설정하는 방법을 사용하면 색상이 비슷한 문제를 해결할 수 있을 듯<br>
+아직 정해진 내용이 아니기 때문에 상의 후 결정
+- body 모델 세그멘테이션 완료 후<br>
+![image](https://github.com/user-attachments/assets/57ae14be-862a-4893-bb2e-841df4106f63)
+- hsl모델에서 hue 부분만 랜덤으로 생성한 후<br>
+![image](https://github.com/user-attachments/assets/83f225f5-1bc1-4820-94d0-31a9fb1a42d7)
+
 ## 2024-09-09~2024-09-15
 ### UI 수정
 - Study 생성하기 전 클릭하면 프로그램 종료되는 에러 해결
