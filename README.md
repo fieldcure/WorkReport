@@ -1,4 +1,10 @@
 # 작업 내용
+
+## 2024-09-23~2024-09-29
+### 전극 에러확인(원래 코드에서의 에러)
+-> 간격이 넓어지면 에러가남(특히 TriangulateFacetsParallel에서)
+![image](https://github.com/user-attachments/assets/fb477ea2-ce0f-4496-9863-9e7231986cd4)
+
 ## 2024-09-16~2024-09-22
 ### 2D/3D/Body Inference 공통 부분 리팩토링
 ![image](https://github.com/user-attachments/assets/0d711560-dace-4f81-ace1-fc640305e425)
