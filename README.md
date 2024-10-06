@@ -1,12 +1,12 @@
 # 작업 내용
 ## 2024-10-06~2024-10-13
-### 오토 세그멘테이션 코드 리팩토링(autoSeg 클래스, roiMaker 클래스)
+### 오토 세그멘테이션 클래스 세분화(autoSeg 클래스, roiMaker 클래스)
 -> 추가적인 디자인 패턴 적용 예정
 ### 전극 생성 코드 리팩토링(작업중이라면 패스)
 ### 에러 수정
 
 ## 2024-09-30~2024-10-06
-### 오토 세그멘테이션 코드 리팩토링(autoSeg 클래스)
+### 오토 세그멘테이션 클래스 세분화(autoSeg 클래스)
 ![image](https://github.com/user-attachments/assets/b62af445-a3bb-453c-acd1-7dd8b2471c6d)
 
 ## 2024-09-23~2024-09-29
@@ -38,7 +38,7 @@
 - Head 모델에서는 Head auto segmentation이, Body 모델에서는 Body auto segmentation이 활성화되도록 수정
 ![image](https://github.com/user-attachments/assets/5eaa3f22-b783-4c56-9144-2aa7296027c5)
 
-### ROIMaker 클래스 Refactoring
+### ROIMaker 클래스 함수 세분화
 ![image](https://github.com/user-attachments/assets/b2f8f474-c4e9-464c-8e20-92f6c5e5446f)
 
 ### Study 생성시 만들어지는 Contour 부분
