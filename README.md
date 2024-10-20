@@ -11,7 +11,7 @@
 - Debugger 클래스 추가하여 디버깅 코드 분리
 
 - 오버라이드된 함수(CreateElectrodePatch)의 로직이 중복이여서 하나의 함수로 통일<br>
-C3DWnd > OnUpdateSpecificElectorde > CreateElectrodePatch 의 기능이 문제가 없는지 확인 부탁드립니다
+C3DWnd > OnUpdateSpecificElectorde > CreateElectrodePatch 수정해도 문제가 없는지 확인 부탁드립니다
 ![image](https://github.com/user-attachments/assets/d51fcd4e-f8ac-4e19-8f97-1d9f9054fa1a)
 
 ## 2024-10-06~2024-10-13
