@@ -1,14 +1,24 @@
 # 작업 내용
-## 2024-10-14~2024-10-19
+## 2024-10-21~2024-10-27
 ### 전극 생성 코드 리팩토링
+
+## 2024-10-14~2024-10-20
+### 전극 생성 코드 리팩토링
+- including 정리
+- Bouding box 코드 사용하지 않으므로 제거 
+- ElectrodePatch 클래스 추가(메탈, 세라믹, 하이드로겔 및 템플릿 전극 관리)
+- Debugger 클래스 추가하여 디버깅 코드 분리
+
+- 오버라이드된 함수(CreateElectrodePatch)의 로직이 중복이여서 하나의 함수로 통일<br>
+C3DWnd > OnUpdateSpecificElectorde > CreateElectrodePatch 의 기능이 문제가 없는지 확인 부탁드립니다
+![image](https://github.com/user-attachments/assets/d51fcd4e-f8ac-4e19-8f97-1d9f9054fa1a)
 
 ## 2024-10-06~2024-10-13
 ### 오토 세그멘테이션 클래스 세분화2(autoSeg 클래스)
 -> template method 디자인 패턴 적용
 ![image](https://github.com/user-attachments/assets/c3bbae37-a72d-4cf7-8d17-9d2e7a92e923)
 
-### 전극 하이드->프로그램 재부팅->전극 생성 에러 수정
--> database에 저장할 필요가 있으므로 월요일 상담 예정(월요일 휴일이라 대응 가능)
+### 전극 하이드->프로그램 재부팅->전극생성 에러 수정완료
 
 ## 2024-09-30~2024-10-06
 ### 오토 세그멘테이션 클래스 세분화(autoSeg 클래스)
