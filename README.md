@@ -7,6 +7,9 @@
 ![image](https://github.com/user-attachments/assets/bc4339c8-1d0e-4be9-8af9-eb8a5f2b95f1)
   
 ### 전극 생성 코드 리팩토링
+- electrodeCreator 클래스 생성
+- 전극 속성 관련 변수들 electrodePatch 클래스로 이동
+- 1~2주 안으로 간단히 마무리 할 예정 -> 이후 별 지시사항 없으시면 딥러닝으로 전기장 계산하는 작업 진행하겠습니다
 
 ## 2024-10-14~2024-10-20
 ### 서버PC(?) 랜섬웨어 걸린 것 같네요
