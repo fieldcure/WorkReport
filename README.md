@@ -1,4 +1,7 @@
 # 작업 내용
+## 2024-11-04~2024-11-10
+# ![image](https://github.com/user-attachments/assets/15b2ea15-fd70-43d7-b887-b5b7363ed211)
+
 ## 2024-10-28~2024-11-03
 ### 전극 생성 코드 리팩토링
 - 전극 생성하는 코드 -> electrodeCreator 클래스로 이동
