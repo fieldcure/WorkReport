@@ -5,7 +5,7 @@
 ### labelmap 결과에 관해서
 - 전기장 계산할 때, 메모리가 부족할 경우 전기장의 일부분이 inf값으로 처리될 가능성이 있습니다. OncoField에서 inf값을 float 값으로 형변환 하면 그 결과는 inf가 아니라 float의 max값으로 변환 될 수 있습니다.(fine에서 문제가 발생하는 것으로 보아 용량에 관련된 문제이지 않을까 싶네요, 값이 어느 정도로 크게 나오나요..?)
 
-- labelmap 데이터를 생성할 때 external과 bone이 일정 거리를 유지하도록 코드가 작성되어 있습니다. -> external 내부와 bone이 같은 경계면을 공유할 가능성은 없습니다. 다만 bone이 external을 뚫는 형태라면 labelmap 결과에서도 bone이 바깥쪽에서 생길 가능성은 있으나 OncoField에서 Union처리 된 데이터가 전달된다고 생각하기 때문에 그 문제는 아닐 것 같네요.(external이 1번, GTV가 7번이라고 할 때 숫자가 높은 영역이 낮은 영역을 덮어 씌우므로 숫자가 높은 GTV가 우선순위가 높습니다.)
+- labelmap 데이터를 생성할 때 external과 bone이 일정 거리를 유지하도록 코드가 작성되어 있습니다. -> external 내부와 bone이 같은 경계면을 공유할 가능성은 없습니다. 다만 bone이 external을 뚫는 형태라면 labelmap 결과에서도 bone이 바깥쪽에서 생길 가능성은 있으나 OncoField에서 Union처리 된 데이터가 전달된다고 생각하기 때문에 그 문제는 아닐 것 같네요.(우선순위에 대해서는 external이 1번, GTV가 7번이라고 할 때 숫자가 높은 영역이 낮은 영역을 덮어 씌우므로 숫자가 높은 GTV가 우선순위가 높습니다.)
 ![image](https://github.com/user-attachments/assets/b06e84db-db4d-4195-905f-f8bebd38f10d)
 ![image](https://github.com/user-attachments/assets/31858b47-e8c3-4243-af51-684ef8619918)
 ![image](https://github.com/user-attachments/assets/9a228125-11ae-4576-82fa-9b6d7f901d3c)
