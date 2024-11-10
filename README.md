@@ -3,6 +3,7 @@
 [작업 예정](https://github.com/user-attachments/assets/15b2ea15-fd70-43d7-b887-b5b7363ed211)
 
 ## 2024-11-04~2024-11-10
+### 전극 생성 코드 리팩토링
 전극 이동/회전관련 클래스 분리중(다음 주 마무리)
 
 ### labelmap 결과에 관해서
