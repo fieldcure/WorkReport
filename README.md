@@ -3,8 +3,8 @@
 ### medical 메쉬확인
 지난 번에도 일단 보고는 드렸는데, 전극 생성할 때 초록색에 삼각형 제거된 부분은 문제가 없나요?(engraved.poly)<br>
 z축으로 labelmap resolution적용한 코드 revert했다고 들었는데, x,y축에서 resolution을 조절하나 x,y,z축에서 resolution을 조절하나 계산에는 큰 차이가 없어서요<br>
-x,y,z축으로 labelmap resolution적용한 코드로 계산하면 bone volume이 줄어든다고 들었는데, x,y축에서도 resolution이 줄어즐면 bone의 크기가 줄어듭니다.
-resolution이 줄어들면 샘플링하는 개수가 줄어드므로 x,y,z어떤 축에서도 resolution이 줄어들면 각 장기의 volume에 영향이 있습니다.
+x,y,z축으로 labelmap resolution적용한 코드로 계산하면 bone volume이 줄어든다고 들었는데, x,y축에서도 resolution이 줄어즐면 bone의 크기에 영향이 있습니다.
+resolution이 줄어들면 샘플링하는 개수가 줄어드므로 x,y,z어떤 축에서도 resolution이 줄어들면 각 장기의 volume에 영향을 주게됩니다.
 근본적인 문제를 해결해야하는데 추가한 코드가 잘안되서 revert하고 종결내리면 안된다고 판단하였으므로... 혹시 몰라 작성해두겠습니다..
 ![image](https://github.com/user-attachments/assets/23b02923-5297-4f79-9462-c3ab05d0b7ec)
 
