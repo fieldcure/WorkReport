@@ -8,6 +8,8 @@ stage2 : 새롭게 훈련된 모델의 성능이 좋지 않아 보임<br>
 👇06/12(3개의 2022년 모델로 돌린 결과)<br>
 ![image](https://github.com/user-attachments/assets/a8e2ad26-ed42-4b4e-8a0c-1cac09721a38)
 
+Release모드에서 ITKAdaptiveHistogramEqualization의 영향으로 결과가 좋지 않게 나오기 때문에 값을 수정하겠습니다
+
 ## 2024-11-18-2024-11-25
 ### medical 메쉬뷰어 에러들 확인중
 
