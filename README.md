@@ -1,4 +1,15 @@
 # 작업 내용
+## 2024-12-16-2024-12-23
+### inner&outer contour처리
+- 테스트, 사용하지 않는 코드 정리
+
+## 2024-12-02-2024-12-15
+### inner&outer contour처리
+스테이지 1 (CSF -> brain)
+![image](https://github.com/user-attachments/assets/e280a7e9-75c3-4491-992e-2f5bec6c172e)
+스테이지 2
+![image](https://github.com/user-attachments/assets/b510c30b-a7ff-4040-a12d-5fbecf1d7a2d)
+
 ## 2024-11-26-2024-12-01
 ### medical 메쉬확인
 지난 번에도 일단 보고는 드렸는데, 전극 생성할 때 초록색에 삼각형 제거된 부분은 문제가 없나요?(engraved.poly)<br>
