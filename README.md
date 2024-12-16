@@ -1,6 +1,10 @@
 # 작업 내용
 ## 2024-12-16-2024-12-23
 ### inner&outer contour처리
+- Brain은 남겨두고, CSF를 추가하는 처리 적용(CSF는 스테이지1의 결과물 Brain에서 스테이지2의 결과물 White Matter를 빼는 방식으로 했습니다, 스테이지1의 Brain결과와 스테이지2의 CSF의 결과가 다르게 출력되기 때문에)<br>
+![image](https://github.com/user-attachments/assets/9d0c3dd3-43be-4fba-8ed3-4ac93542d31d)<br>
+![image](https://github.com/user-attachments/assets/cfe4fce4-57d5-4613-9dab-785336eb4474)<br>
+
 - 테스트, 사용하지 않는 코드 정리
 
 ## 2024-12-02-2024-12-15
