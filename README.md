@@ -1,6 +1,6 @@
 # 작업 내용
 ## 2025-01-02
-꽤 쓸모있는 것 같아서 단순 공유입니다
+꽤 쓸모있는 것 같아서 단순 공유입니다 <br>
 [On the Compositional Generalization of Multimodal LLMsfor Medical Imaging](https://arxiv.org/pdf/2412.20070)
 ![image](https://github.com/user-attachments/assets/e7b6488d-3224-4b35-b61b-68c477ae63cc)
 
